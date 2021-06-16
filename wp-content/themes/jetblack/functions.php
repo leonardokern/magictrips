@@ -15,7 +15,7 @@ function jetblack_gtm( $option ) {
 	// Get our Customizer defaults
 	$defaults = apply_filters( 'jetblack_customizer_defaults', true );
 
-	return isset( $defaults[ $option ] ) ? get_theme_mod( $option, $defaults[ $option ] ) : get_theme_mod( $option );
+	return isset( $defaults[ $option ] ) ? get_theme_mod( $option, $defaults[ $option ] ) : get_thgieme_mod( $option );
 }
 
 if ( ! function_exists( 'jetblack_setup' ) ) :
